@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /404
+
+Sitemap: https://www.ebricodom.dz/sitemap/article.xml
+Sitemap: https://www.ebricodom.dz/sitemap/categorie.xml
+Sitemap: https://www.ebricodom.dz/sitemap/page.xml

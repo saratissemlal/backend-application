@@ -1,0 +1,192 @@
+font{display: none}
+s.c,.c,.cc,.head{width: 100%;min-width: 300px;padding: 10px}
+
+.content{display: block}
+
+span.menu-res{display: none}
+.cont,aside{width: 100%}
+
+.gla-pagination{text-align: center;justify-content: center;margin: 40px auto}
+.gla-pagination a{padding: 10px 16px;margin: 8px;}
+
+
+@media (max-width : 960px) {
+
+    *{flex-wrap: wrap}
+    
+    header .c{padding: 20px;text-align: center}
+
+    header .logo{height: 70px;margin: 10px 0 20px}
+
+    header form{width: 100%;display: flex !important;box-shadow: 0 0 3px #ccc;padding: 10px}
+    header form input[type="search"]{width: calc(100% - 35px) !important;}
+
+    header .tophead{justify-content: center; text-align: center}
+    header .tophead > div{margin-top: 20px;align-items: center}
+    header .tophead span.icon{font-size: 1.5em}
+
+
+    span.menu-res{display: block;position: fixed;top: 10px;right: 10px;color: #fff;transition: 0.15s linear;font-size: 1.9em;padding: 10px;cursor: pointer}
+    nav{position: absolute;right:-250px;top: 0;width: 250px!important;box-shadow: 0 0 6px rgba(0,0,0,0.6);transition: 0.15s linear;z-index: 1100;position: fixed;bottom: 0;padding: 10px}
+    .mn .menu-res{right: 245px;top: 5px;background-color: #000}
+    .mn nav{right:0;}
+    nav .c{min-width: auto;padding: 0}
+
+    header nav ul,header nav .cats ul{display: block}
+    header nav ul li{display: block;font-weight: bold;}
+    header nav ul li ul{position: relative;display: block;margin-left: 20px;box-shadow: none;}
+    header nav ul li ul li{display: block;font-weight: normal}
+
+    header nav > ul, header nav .conf{width: 100%}
+    header nav ul li ul{margin-left: 0}
+
+    header nav .cats ul{position: static}
+    header nav .cats .icon{display: none}
+
+    
+    .home_search select{margin-bottom: 20px !important}
+
+    .caroussel{height: 400px}
+    .caroussel .masq{height: 300px}
+    .caroussel .masq div{padding: 20px;margin: 20px;font-size: 0.8em;opacity: 0.75;width: calc(100% - 40px) !important;}
+    .caroussel .child div{width:90%;margin: 30px auto}
+    .caroussel .child span {font-size: 2.1em;}
+    .caroussel .child p{font-size: 0.9em}
+    .caroussel .btn.icon{top: 62%;display: block}
+
+    .c1 form > *{margin-bottom: 10px !important;}
+
+    .c2 div div > div{margin-bottom: 40px}
+    .c2 img{height: 250px;width: 100%}
+    .c2 div.num{padding: 20px !important;margin-bottom: 0;border-radius: 0}
+
+    .c3 .c div{justify-content: center;margin-bottom: 20px}
+
+    .c4 .services{display: block}
+
+    .c6 .apps img{width: 200px !important;margin: 10px auto 0}
+
+    .mask .exit, .mask .btn{padding: 0;font-size: 1em;width: 40px;height: 40px;}
+
+    .content{padding: 20px 0}
+
+
+    .articles{justify-content: center;}
+
+    .article{min-width: 280px;border-left: 1px solid #e8e8e8}
+
+    .article button{position: static;margin-top: 8px}
+    .article img{width: 90px}
+    .article .title{text-align: left}
+    .article .pan{margin-right: 5px}
+    .article .fav{margin-left: 5px}
+    .more-articles .article{min-width: auto;margin: 0}
+
+    aside .article{min-width: auto;width: auto}
+
+
+    .single .c3.flex{flex-direction: column}
+    .single .first-cont{padding-top: 20px;margin-bottom: 10px}
+    .single .first-cont{display: block}
+    .single .photos,.single .ar-cont{margin-top: 20px;display: block;width: 100%}
+    .single .box .cnt{padding: 15px}
+    .gla-comment{margin: 20px 0}
+    .gla-cptch label{display: block;margin-bottom: 10px}
+    .gla-cptch span{font-size: 0.8em}
+
+    .single .ar-cont{padding: 0}
+    .single .ar-cont h1{font-size: 1.5em}
+
+    .single .gd, .grid3{display: block}
+    .single .comm, .single .desc{width: 100%}
+
+    .more_services{margin-top: 70px;}
+
+    .contact .child,.contact .child2{width: 100%}
+
+    .first-cont, .single .cont .boxes, .login .box, .single .cont .box .cnt{padding: 10px}
+    .single .box .cnt{padding: 0}
+
+    .more-articles{margin-bottom: 20px;}
+    .more-articles .article{width: 300px}
+
+    .single .car-slide{width: 100%;margin: 0}
+
+    .page .child{width:100%;margin: 10px}
+    .page-aside{padding: 20px}
+
+    .panier .ref{display: flex;margin-bottom: 10px;padding: 0 8px}
+    .panier .ref div{width: calc(100% - 100px)}
+    .panier .dt{width: 100%;margin: 10px 0;padding: 10px}
+    .panier .dt span{margin-bottom: 5px;display: block;width: 100% !important;text-align: left}
+    .panier .btn_show_prod{margin: 8px;display: block}
+
+    .pg .child{padding: 15px;width: 100%}
+    .pg .child2{width: 100%}
+    .child2 ul{padding: 30px 15px}
+    footer .child.cnt{width: 100%}
+
+    .share p{width: 100%}
+
+    .gla-com span.gla-com-time{display: block;float: none}
+    .gla-com div{width: calc(100% - 50px) !important;}
+    .gla-form .group{display: block}
+    .gla-form .group input[type=text], .gla-form .group input[type=email]{width: 100%}
+    .gla-form label{margin-bottom: 10px}
+    .gla-cptch{margin: 20px 0}
+
+    footer .child{max-width:100%;width: 100%}
+    footer .c{display: block;text-align: center}
+    footer .c > div{display:block;margin-bottom: 40px;width: 100%}
+    footer .c > div a{margin-bottom: 20px;display: block;text-align: center}
+    footer .c div > div{margin-bottom: 20px}
+
+    .space .flex{flex-direction: column-reverse}
+    .pg .products, .pg .command{width: 100%}
+
+
+
+}
+
+@media (max-width : 620px) {
+
+    header .logo{height: 40px;}
+    header form{width: 94%;margin: 20px auto}
+    header .cnt > div{display: flex;justify-content: space-between;align-items: center;margin-right: 20px}
+    header .cnt div div{width: 75%;display: block}
+    header .cnt div .pan{display: none}
+    header .cnt .btn{font-size: 0.8em;padding: 5px 10px!important;margin-left: 65px!important;}
+    header .cnt div .usr{display: flex;align-items: center}
+    header .cnt div .usr img{margin-right: 5px}
+    header .cnt div .usr span{font-size: .9em}
+    .head ul{display: block}
+    .head li{text-align: center;margin:10px 0}
+
+    .mask .btn{top: 85%}
+
+    .login .box, .login .box form{width: 100%}
+
+    .article .t{height: auto}
+
+    .m_d_inb_mb a{display: block;margin: 0 0 10px;}
+
+    .h1{padding: 30px 10px;font-size: .6em}
+    .h1 .icon{display: block;margin-bottom: 8px}
+    .pg .produit .ref{width: 100%}
+
+    .panier .products .ref img{width: 36%;height: auto}
+    .panier .products .ref div{width: 60%}
+    .pg .produit.flex{padding: 8px 0}
+    .pg .produit .qnt{width: 60px;}
+    .pg .produit .price{text-align: center;width: 45%;margin: 0;padding: 0;font-size: 1em}
+    .pg .produit > button.icon, .pg .produit .btn{font-size: 1.9em}
+    .panier .box h2{font-size: 1.2em}
+    .panier .box p{font-size: .9em}
+    .panier .box .btn{font-size: .9em;padding: 10px 15px;display: block;text-align: center;margin-top: 5px}
+    .panier .box .rem{margin: 0;font-size: .9em}
+
+    .inf .produit{padding: 0}
+    .inf form{height: auto}
+    .inf form label,.inf form div,.inf form input{width: 100%!important;}
+
+}
